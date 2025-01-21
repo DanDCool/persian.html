@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  background-image: url("background.png");
+  background-size: cover; /* Optional: Adjusts the size of the background image */
+  background-repeat: no-repeat; /* Optional: Prevents the image from repeating */
+  background-position: center center; /* Optional: Centers the background image */
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal GitHub Page">
+    <title>Your Name - GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <button class="menu-btn" onclick="openSidebar()">☰ Menu</button>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="closeSidebar()">✖</button>
+        <ul>
+            <li><a href="https://dandcool.github.io/">Home</a></li>
+            <li><a href="https://dandcool.github.io/portfolio.html">Portfolio</a></li>
+            <li><a href="https://dandcool.github.io/about.html">About</a></li>
+            <li><a href="https://dandcool.github.io/contact.html">Contact</a></li>
+            <li><a href="https://dandcool.github.io/persian.html">Switch to Persian</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <header class="header-container">
+            <div class="header-text">
+                <h1>لمیرعلی حسینی مقدم</h1>
+                <p>به وبسایت من خوش آمدید</p>
+            </div>
+            <div class="header-image">
+                <img src="photo_2025-01-20_00-01-31.jpg" alt="Profile Picture">
+            </div>
+        </header>
+
+        <section class="box about">
+            <h2>About Me</h2>
+            <p>سلام! من یک دانشجوی سال اول مهندسی کامپیوتر هستم که علاقه زیادی به ساخت بازی دارم 
+                و مشارکت در پروژه های جالب. می توانید مخازن من را کشف کنید و در مورد علایق من بیشتر بدانید.</p>
+        </section>
+
+        <section class="box projects">
+            <h2>کارهایی که انجام میدم:</h2>
+            <ul>
+                <li>
+                    <h3>من پیانو مینوازم</h3>
+                    <p>من از ۶ سالگی پیانو یاد میگرفتم و الان یه جورایی توش خوب شدم</p>
+                </li>
+                <li>
+                    <h3>من میتونم خوب انگلیسی حرف بزنم</h3>
+                    <p>یوتیوب نگاه کردن از کلاس ششم به هفتم واقعا به زبانم کمک کرد</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="box contact">
+            <h2>رابطه با من</h2>
+            <p><a href="mailto:amirali.hm.2006@gmail.com">amirali.hm.2006@gmail.com</a>.شما میتونین منو اینجا پیدا کنین</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Amirali Hosseini Moghaddam. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+</body>
+</html>
