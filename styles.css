@@ -1,0 +1,141 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 0 20px; /* Added padding to create space from sides */
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(75, 0, 130, 0.9);
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 15px 25px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #d8b9ff;
+}
+
+/* Close button inside sidebar */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #d8b9ff;
+}
+
+/* Menu button */
+.menu-btn {
+    font-size: 1.5rem;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #4b0082;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #d8b9ff;
+}
+
+/* Header section */
+.header-container {
+    text-align: center;
+    background-color: rgba(75, 0, 130, 0.9);
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Image under header text */
+.header-image img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Content styling */
+.content {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/* Section boxes */
+.box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;  /* Added space from sides */
+    margin-right: 20px; /* Added space from sides */
+}
+
+.box h2 {
+    color: #4b0082;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(75, 0, 130, 0.9);
+    color: #fff;
+    border-radius: 10px;
+}
