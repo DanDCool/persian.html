@@ -20,7 +20,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(75, 0, 130, 0.9);
+    background-color: rgba(75, 0, 130, 0.5);
     overflow-x: hidden;
     transition: 0.4s;
     padding-top: 60px;
@@ -82,7 +82,7 @@ body {
 /* Header section */
 .header-container {
     text-align: center;
-    background-color: rgba(75, 0, 130, 0.9);
+    background-color: rgba(75, 0, 130, 1);
     color: #fff;
     padding: 40px;
     border-radius: 10px;
@@ -114,7 +114,7 @@ body {
 
 /* Section boxes */
 .box {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #ddd;
     padding: 30px;
     margin-bottom: 30px;
@@ -135,7 +135,7 @@ footer {
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    background-color: rgba(75, 0, 130, 0.9);
+    background-color: rgba(75, 0, 130, 1);
     color: #fff;
     border-radius: 10px;
 }
